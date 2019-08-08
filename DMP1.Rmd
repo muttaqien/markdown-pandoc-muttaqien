@@ -10,6 +10,7 @@ output:
     number_sections: TRUE
     theme: sandstone
     highlight: monochrome
+    code_folding: hide
 #“default”, “cerulean”, “journal”, “flatly”, “darkly”, “readable”, “spacelab”, “united”, “cosmo”, “lumen”, “paper”, “sandstone”, “simplex”, “yeti”
 #“default”, “tango”, “pygments”, “kate”, “monochrome”, “espresso”, “zenburn”, “haddock”, “textmate”
 ---
@@ -123,5 +124,8 @@ plot(faithful, main="Do You Want Wait Longer?")
 ```
 
 This dataset has `r nrow(usgs)` sampling sites.
+
+# Distributing License {-}
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 # References {-}
